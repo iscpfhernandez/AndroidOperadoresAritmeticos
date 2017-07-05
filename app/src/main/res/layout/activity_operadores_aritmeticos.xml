@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="mx.edu.cetis125.androidoperadoresaritmeticos.OperadoresAritmeticos">
+
+    <TextView
+        android:id="@+id/tvValor1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tValor1"/>
+    <EditText
+        android:id="@+id/edValor1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tCero"
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:id="@+id/tvValor2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tValor2"/>
+    <EditText
+        android:id="@+id/edValor2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tCero"
+        android:inputType="numberDecimal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btSuma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tSuma"/>
+        <Button
+            android:id="@+id/btResta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tResta"/>
+        <Button
+            android:id="@+id/btMultiplicacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tMultiplicacion"/>
+        <Button
+            android:id="@+id/btDivision"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tDivision"/>
+        <Button
+            android:id="@+id/btModulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tModulo"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tResultado"/>
+    <TextView
+        android:id="@+id/tvValorResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tCero"/>
+
+</LinearLayout>

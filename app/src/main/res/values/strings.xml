@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Operadores aritméticos</string>
+    <string name="tDescripcion">Programa que muestra el funcionamiento de los operadores aritméticos</string>
+    <string name="tIntegrantes">Pedro\nFabián</string>
+    <string name="tIngresar">Ingresar</string>
+    <string name="tValor1">Valor 1</string>
+    <string name="tValor2">Valor 2</string>
+    <string name="tCero">0</string>
+    <string name="tSuma">+</string>
+    <string name="tResta">-</string>
+    <string name="tMultiplicacion">*</string>
+    <string name="tDivision">/</string>
+    <string name="tModulo">%</string>
+    <string name="tResultado">Resultado</string>
+
+</resources>
